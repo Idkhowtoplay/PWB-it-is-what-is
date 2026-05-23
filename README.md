@@ -4,6 +4,6 @@
    git clone https://github.com/Idkhowtoplay/PWB-it-is-what-is.git
 2. Open the folder:
    ```
-   cd it is what is
+   cd PWB it is what is
    code .
 # Contribute
