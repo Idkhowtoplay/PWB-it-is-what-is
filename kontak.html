@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kontak dan informasi bergabung FKMK SV IPB University.">
+    <title>Kontak | FKMK SV IPB University</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body data-page="kontak">
+    <header class="site-header kmk-header">
+        <div class="topbar"><div class="container topbar-inner"><span>Forum Keluarga Mahasiswa Katolik SV IPB University</span><div class="topbar-links"><a href="mailto:fkmksvipb@example.com">fkmksvipb@example.com</a><a href="kontak.html">Gabung FKMK</a></div></div></div>
+        <div class="nav-shell">
+            <div class="container nav-inner">
+                <a class="brand" href="fkmk-sv-ipb-profesional.html" aria-label="Beranda FKMK SV IPB"><span class="brand-mark"><i data-lucide="church"></i></span><span><strong>FKMK SV IPB</strong><span>Ubi Familia, Ibi Amor</span></span></a>
+                <nav class="main-nav" aria-label="Navigasi utama">
+                    <a data-nav="home" href="fkmk-sv-ipb-profesional.html">Beranda</a>
+                    <a data-nav="profil" href="profil.html">Profil</a>
+                    <a data-nav="event" href="event.html">Event</a>
+                    <a data-nav="lagu" href="lagu-misa.html">Lagu Misa</a>
+                    <a data-nav="jadwal" href="jadwal-misa.html">Jadwal Misa</a>
+                    <a data-nav="doa" href="doa-katolik.html">Doa Katolik</a>
+                </nav>
+                <div class="nav-actions"><a class="btn" href="kontak.html">Kontak <i data-lucide="arrow-right"></i></a><button class="menu-toggle" type="button" aria-label="Buka menu" aria-expanded="false"><i data-lucide="menu"></i></button></div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero" style="--page-image: url('https://images.unsplash.com/photo-1521791055366-0d553872125f?auto=format&fit=crop&w=1800&q=84');">
+            <div class="container">
+                <p class="eyebrow">Kontak dan Bergabung</p>
+                <h1>Mulai perjalanan bersama keluarga <span>FKMK.</span></h1>
+                <p>Hubungi pengurus, tanyakan kegiatan, atau sampaikan minat bergabung sebagai anggota FKMK Sekolah Vokasi IPB University.</p>
+                <div class="breadcrumb"><a href="fkmk-sv-ipb-profesional.html">Beranda</a> <span>/</span> <span>Kontak</span></div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container contact-grid">
+                <article class="contact-card">
+                    <span class="icon-box"><i data-lucide="mail"></i></span>
+                    <h3>Email</h3>
+                    <p>Gunakan email untuk kebutuhan resmi, kerja sama, atau pertanyaan administrasi.</p>
+                    <a href="mailto:fkmksvipb@example.com">fkmksvipb@example.com</a>
+                </article>
+                <article class="contact-card">
+                    <span class="icon-box"><i data-lucide="instagram"></i></span>
+                    <h3>Instagram</h3>
+                    <p>Ikuti publikasi kegiatan, dokumentasi, dan informasi terbaru FKMK.</p>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram FKMK</a>
+                </article>
+                <article class="contact-card">
+                    <span class="icon-box"><i data-lucide="map-pin"></i></span>
+                    <h3>Lingkup Kegiatan</h3>
+                    <p>FKMK bergerak di lingkungan Sekolah Vokasi IPB University.</p>
+                    <a href="program.html">Lihat Program</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="section section-soft">
+            <div class="container split">
+                <div>
+                    <div class="section-title">
+                        <p class="eyebrow">Form Minat</p>
+                        <h2>Tulis pesan untuk pengurus FKMK.</h2>
+                        <p>Form ini masih bersifat tampilan statis. Jika website sudah dipublikasikan, tombolnya bisa dihubungkan ke Google Form, WhatsApp, atau email resmi.</p>
+                    </div>
+                    <div class="feature-list">
+                        <article class="feature-item"><span class="icon-box"><i data-lucide="user-plus"></i></span><div><h3>Calon anggota</h3><p>Perkenalkan diri dan sampaikan angkatan/program studi.</p></div></article>
+                        <article class="feature-item"><span class="icon-box"><i data-lucide="handshake"></i></span><div><h3>Kerja sama</h3><p>Sampaikan kebutuhan koordinasi, undangan, atau kolaborasi kegiatan.</p></div></article>
+                    </div>
+                </div>
+
+                <form class="contact-card contact-form" data-contact-form>
+                    <div class="field">
+                        <label for="nama">Nama</label>
+                        <input id="nama" name="nama" type="text" placeholder="Nama lengkap" required>
+                    </div>
+                    <div class="field">
+                        <label for="kontak">Kontak</label>
+                        <input id="kontak" name="kontak" type="text" placeholder="Email atau WhatsApp" required>
+                    </div>
+                    <div class="field">
+                        <label for="pesan">Pesan</label>
+                        <textarea id="pesan" name="pesan" rows="5" placeholder="Tulis pesan singkat" required></textarea>
+                    </div>
+                    <button class="btn" type="submit">Kirim Pesan <i data-lucide="send"></i></button>
+                    <div class="form-note" role="status"></div>
+                </form>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-title center">
+                    <p class="eyebrow">FAQ</p>
+                    <h2>Pertanyaan yang sering muncul.</h2>
+                </div>
+                <div class="faq-list">
+                    <article class="faq-item open">
+                        <button class="faq-button" type="button" data-faq aria-expanded="true">Bagaimana cara bergabung dengan FKMK? <i data-lucide="plus"></i></button>
+                        <div class="faq-panel"><p>Kamu dapat menghubungi pengurus melalui kontak yang tersedia atau datang pada kegiatan FKMK yang dibuka untuk anggota.</p></div>
+                    </article>
+                    <article class="faq-item">
+                        <button class="faq-button" type="button" data-faq aria-expanded="false">Apakah FKMK hanya untuk mahasiswa Katolik Sekolah Vokasi IPB? <i data-lucide="plus"></i></button>
+                        <div class="faq-panel"><p>FKMK berfokus sebagai wadah mahasiswa Katolik di lingkup Sekolah Vokasi IPB University.</p></div>
+                    </article>
+                    <article class="faq-item">
+                        <button class="faq-button" type="button" data-faq aria-expanded="false">Apa saja kegiatan rutin FKMK? <i data-lucide="plus"></i></button>
+                        <div class="faq-panel"><p>Kegiatannya dapat mencakup doa bersama, misa, pendalaman iman, keakraban, publikasi, pelayanan sosial, dan pengembangan talenta anggota.</p></div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div><h2>FKMK SV IPB</h2><p>Forum Keluarga Mahasiswa Katolik Sekolah Vokasi IPB University.</p></div>
+                <div><h3>Navigasi</h3><a href="fkmk-sv-ipb-profesional.html">Beranda</a><a href="profil.html">Profil</a><a href="visi-misi.html">Visi Misi</a><a href="program.html">Program</a></div>
+                <div><h3>Divisi</h3><a href="program.html#rohani">Rohani</a><a href="program.html#hakrab">Hakrab</a><a href="program.html#kominfo">Kominfo</a><a href="program.html#penkraf">Penkraf</a></div>
+                <div><h3>Kontak</h3><a href="mailto:fkmksvipb@example.com">fkmksvipb@example.com</a><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram FKMK</a><p>Sekolah Vokasi IPB University</p></div>
+            </div>
+            <div class="footer-bottom"><span>&copy; 2026 FKMK SV IPB University.</span><span>Dikelola oleh Divisi Kominfo Kabinet Gregorius.</span></div>
+        </div>
+    </footer>
+
+    <button class="scroll-top" type="button" aria-label="Kembali ke atas"><i data-lucide="arrow-up"></i></button>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
